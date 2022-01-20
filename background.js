@@ -7,8 +7,14 @@ const titleToMarkdown = async () => {
 
   let result = `[${tab.title}](${tab.url})`;
   navigator.clipboard.writeText(result).then(
-    function () {
-      /* clipboard successfully set */
+    async () => {
+      // await browser.tabs.create({ url: "index.html" });
+      await browser.notifications.create({
+        type: "basic",
+        title: "🎉 Sucess!",
+        message:
+          " Successfully copy the title and URL for this page to your clipboard!",
+      });
     },
     function () {
       /* clipboard write failed */
