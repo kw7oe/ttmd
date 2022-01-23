@@ -10,7 +10,7 @@ instructions:
 
 1. `git clone https://github.com/kw7oe/ttmd`
 2. Open Firefox browser.
-3. Visit `(about:debugging#/runtime/this-firefox`
+3. Visit to `about:debugging#/runtime/this-firefox`
 4. Click `Load Temporay Add-on...`
 5. Choose `manifest.json` from this directory cloned to your machine.
 6. Click `Open` and you're good to go.
