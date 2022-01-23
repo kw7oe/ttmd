@@ -1,6 +1,7 @@
 const titleToMarkdown = async () => {
   let tabs = await browser.tabs.query({
     active: true,
+    currentWindow: true,
   });
 
   let tab = tabs[0];
