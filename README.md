@@ -26,6 +26,6 @@ the following documentations:
 
 _(All the links above are copy and pasted using this extension. Dogfooding FTW!)_
 
-And, here's the tutorial I wrote about implemnting this extension:
+And, here's the tutorial I wrote about implementing this extension:
 
 - [Writing a simple Firefox Extension](https://kaiwern.com/posts/2022/02/12/writing-a-simple-firefox-extension/)
