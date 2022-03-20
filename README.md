@@ -1,6 +1,6 @@
 # ttmd
 
-A minimal Firefox Extension to convert the current tab title and url to Markdown format.
+A minimal Firefox Extension to convert the current tab title and url to Markdown format. 
 
 ## Installation
 
@@ -25,3 +25,7 @@ the following documentations:
 - [notifications.create() - Mozilla | MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/create)
 
 _(All the links above are copy and pasted using this extension. Dogfooding FTW!)_
+
+And, here's the tutorial I wrote about implemnting this extension:
+
+- [Writing a simple Firefox Extension](https://kaiwern.com/posts/2022/02/12/writing-a-simple-firefox-extension/)
